@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+:root {
+    --main: #ca054d;
+    --secondary: antiquewhite;
+}
+.navbar {
+    background-color: #ca054d;
+    color: antiquewhite;
+    height: 47px;
+}
+
+.navbar h1 {
+    margin-left: 57px;
+    text-align: left;
+    padding: 6px;
+}
+
+#search {
+    position: absolute;
+    top: 9px;
+    right: 86px;
+    padding:5px;
+    border: none;
+    border-radius: 4px;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.tempDiv {
+    background-color: #f7f7f7;
+    width: 25%;
+    margin: 33px;
+    margin-left: 66px;
+    height: 300px;
+    margin-top: 35px;
+    width: 90%;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.send {
+    position: absolute;
+    top: 9px;
+    right: 22px;
+    padding: 5px;
+    border-radius: 4px;
+    color: #333;
+    background-color: antiquewhite;
+    border: none;
+    width: 60px;
+
+}
+
+.paw {
+    height: 40px;
+    position: absolute;
+    top: 5px;
+    left: 11px;
+}
+
+.weather-icon {
+    margin-top:0px;
+    height: 200px;
+}
+
+.tempDiv h2 {
+    text-align: center;
+    background-color: #ca054d;
+    color: antiquewhite;
+    padding: 3px;
+    position: absolute;
+    top: 11%;
+    width: 90%;
+
+}
+
+.temp-meter {
+    
+    width: 50px;
+    background-color: antiquewhite;
+}
+
+.infodiv-head {
+    background: var(--main);
+    color: antiquewhite;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9%;
+    position: absolute;
+    top: 41.111%;
+    left: 97px;
+}
+
+.feels-like {
+    position: absolute;
+    top: 46%;
+    left: 97px;
+}
+
+.temp {
+    position: absolute;
+    top: 48.333%;
+    left: 97px;
+}
+#temp-meter {
+    position: absolute;
+    height: 140px;
+    left: 18%;
+    top: 20.777%;
+}
+
+.temp-text {
+    position: absolute;
+    background-color: #ca054d;
+    color: antiquewhite;
+    top: 40.77%;
+    left: 21%;
+    padding: 4px;
+    width: 45px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.send {
+    font-weight: 600;
+}
+
+.weather-info-wrapper, .temp-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.weather-info-wrapper > div {
+    display: inline-block;
+    background-color: #f7f7f7;
+    width: 33%;
+    height: 300px;
+    border-radius: 4px;
+    color: #333;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#sunrise {
+    width: 45%;
+}
+
+.weather-info-wrapper > div h2 {
+    position: absolute;
+    background-color: var(--main);
+    color: var(--secondary);
+    width: 25%;
+    padding: 4px;
+    border-radius: 4px;
+    top: 58.888%;
+    margin-bottom: 12%;
+}
+
+#sunrise {
+    margin-top: 24px;
+}
+
+#sunset, #humidity {
+    width: 41%;
+    margin-top: 24px;
+}
+.temp-wrapper {
+    margin-top: 24px;
+}
+
+.temp-wrapper > div {
+    background-color: #f7f7f7;
+    width: 33%;
+    height: 297px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp-wrapper > div h2 {
+       position: absolute;
+    background-color: var(--main);
+    color: var(--secondary);
+    width: 25%;
+    padding: 4px;
+    border-radius: 4px;
+    top: 58.99%;
+    margin-bottom: 12%;
+    text-align: center;
+}
+
+.tempDiv > div {
+    height: 260px;
+    display: inline-block;
+    width: 24%;
+    margin-top: 37px;
+}
+
+.tempDiv img {
+    width: 65%;
+
+}
+
+#meter, .feels-like-div img{
+    width: 50%;
+    margin-top: 7%;
+}
+
+.feels-like-div img {
+    width: 45%;
+    margin-top: 10%;
+}
+
+.a {
+    text-align: center;
+}
+
+.icon h3, .h-wrapper2 h3, .h-wrapper3 h3 {
+    background-color: #ca054d;
+    color: antiquewhite;
+    text-align: center;
+    width: 50%;
+}
+
+
+.h-wrapper2 h3 {
+    padding: 4px;
+    border-radius: 4px;
+    margin-top: 2px;
+}
+
+.h-wrapper3 h3 {
+    padding: 4px;
+    margin-top: 6px;
+    border-radius: 4px;
+}
+
+#temph3 {
+    width: 55%;
+}
+
+.mid {
+    width: 30%;
+    margin-top: 27px;
+}
+
+footer {
+    background-color: navajowhite;
+    margin-top: 32px;
+}
+
+footer h2 {
+    display: inline-block;
+    text-align: left;
+    background-color: var(--main);
+    color: antiquewhite;
+    width: 100%;
+    
+    
+}
+
+footer a {
+    display: block;
+    color: #000;
+    background-color: #f7f7f7;
+
+}
+
+.temp-wrapper p {
+    margin-top: 11px;
+}
+
+#toggle {
+    position: absolute;
+    top: 12px;
+    left: 48%;
+    width: 3%;
+    background-color: antiquewhite;
+    color: #333;
+    border: none;
+    border-radius: 2px;
+    height: 22px;
+}
+.h-wrapper1 {
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 240px;
+}
+
+.h-wrapper1 > div {
+    background-color: antiquewhite;
+    height: 110px;
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.h-wrapper1-child h3 {
+    width: 98%;
+    padding: 4px;
+    border-radius: 4px;
+    position: relative;
+    top: -30%;
+    
+}
+.h-wrapper1-child h4 {
+    margin-bottom: 12px;
+}
+
+#toggle {
+    font-weight: 500;
+}
+
+.kittydiv {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.kittydiv h3 {
+    background-color: #ca054d;
+    margin-top: 19px;
+    color: antiquewhite;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.kittydiv img {
+    margin-top: 7px;
+    border-radius: 4px;
+    
+
+}
+
+.tempDiv {
+    overflow: scroll;
+    scrollbar-color: antiquewhite;
+    scroll-behavior: smooth;
+    scrollbar-gutter: blue;
+}
